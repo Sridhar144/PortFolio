@@ -1,0 +1,62 @@
+{% extends "inclusive.html" %}
+{% load static %}
+{% block body %}
+
+  <div id="sk" class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+      <img id="code" class="pics" src="/static/img/data-science.png" alt="">
+      <h3>Programming, Problem-solving and aspiring Developer</h3>
+      <p>My skills involve coding, problem solving, DSA, data sceience and analytics, competitive Programming and front end developer</p>
+    </div>
+    <div class="skill-row">
+      <img id="sing" class="pics" src="/static/img/singer.png" alt="">
+      <h3>Singer, Musician, Beatboxer</h3>
+      <p>I love music and have a passion for singing Western Indian and Classical, as for instruments I can play the Guitar and Harmonium</p>
+    </div>
+  </div>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <div class="d-flex justify-content-center">
+        <img class="car" src="https://source.unsplash.com/500x300/?problem-solver,programmer,developer" class="d-block w-100" alt="...">
+          </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <div class="d-flex justify-content-center">
+
+        <img class="car" src="https://source.unsplash.com/500x300/?singer,beatboxer,guitar,harmonium" class="d-block w-100" alt="...">
+          </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <div class="d-flex justify-content-center">
+
+        <img class="car" src="https://source.unsplash.com/500x300/?leadership,musician,employer,music" class="d-block w-100" alt="...">
+          </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <div class="d-flex justify-content-center">
+
+        <img class="car" src="https://source.unsplash.com/500x300/?coder,hacker,datascience" class="d-block w-100" alt="...">
+          </div>
+      </div>
+      
+      <div class="carousel-item" data-bs-interval="5000">
+        <div class="d-flex justify-content-center">
+
+        <img class="car" src="https://source.unsplash.com/500x300/?sports,cricket,male_player,football,basketball,kabaddi,badminton" class="d-block w-100" alt="...">
+      </div>
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="btn" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-disabled="false"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="btn" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <hr class="my-5">
+  {% endblock body %}
